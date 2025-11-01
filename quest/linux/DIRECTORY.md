@@ -37,7 +37,11 @@ ls
 ## 8. ディレクトリの作成
 
 ホームディレクトリに移動し、"projects" という名前のディレクトリを作成してください。
-
+#### mkdir projects
+場所のパス　"\\wsl.localhost\Ubuntu-24.04\home\ubuntudayo\projects"
+念のため、GUIでも確認。
 ## 9. ディレクトリの削除
 
 作成した "projects" ディレクトリを削除してください。
+#### rmdir -v projects
+何を削除したかを確認できるように、-vで詳細を表示させました。
